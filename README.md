@@ -24,7 +24,7 @@ SOAP Client for connecting to the Dentalxchange API
 	TRN*1*12145*1AA0989922~
 	NM1*IL*1*(SLAST)*(SFIRST)****MI*(MEMBERID)~
 	DMG*D8*(SDOB)~
-	DTP*307*D8*#{date}~
+	DTP*307*D8*(DATE-YYMMDD)~
 	EQ*30~
 	SE*16*0001~
 	GE*1*12145~
