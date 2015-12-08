@@ -47,6 +47,23 @@ SOAP Client for connecting to the Dentalxchange API
 	```
 
 4. Send the SOAP request:
+
 	``` bash
 	$ ruby request.rb
+	```
+
+
+### Available Operations:
+	``` ruby
+	lookup_eligibility
+	lookup_terminal_eligibility
+	lookup_family_eligibility
+	lookup_claim_status
+	lookup_terminal_claim_status
+	update_terminal
+	submit_claim
+	validate_claim
+	get_payer_list
+	get_claim_status
+	get_eligibility
 	```

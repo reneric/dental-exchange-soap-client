@@ -11,7 +11,7 @@ DEV_HOST = 'prelive2'
 PRODUCTION_HOST = 'webservices'
 
 # Set Environment
-ENVIRONMENT = 'dev'
+ENVIRONMENT = 'production'
 
 # Set host based on environment
 HOST =
@@ -42,6 +42,8 @@ client = Savon.client(
   namespaces: namespaces,
   env_namespace: :S
 )
+
+puts client.operations
 
 # Send Request
 response = client.call(:lookup_eligibility) do
