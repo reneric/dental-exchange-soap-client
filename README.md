@@ -7,7 +7,7 @@ SOAP Client for connecting to the Dentalxchange API
 
 1. Set the correct environment in `soap.rb`:
 	``` ruby
-		ENVIRONMENT = 'dev' # or 'production'
+	ENVIRONMENT = 'dev' # or 'production'
 	```
 
 2. Add your EDI (x12) document to `edi_document.rb`.
