@@ -7,8 +7,8 @@ credentials = YAML::load_file(File.join(__dir__, 'config/credentials.yml'))
 # Constants
 DEVELOPMENT = 'dev'
 PRODUCTION = 'production'
-LIVE_HOST = 'webservices'
 DEV_HOST = 'prelive2'
+PRODUCTION_HOST = 'webservices'
 
 # Set Environment
 ENVIRONMENT = 'dev'

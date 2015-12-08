@@ -5,7 +5,12 @@ SOAP Client for connecting to the Dentalxchange API
 
 ## Getting Started
 
-1. Add your EDI (x12) document to `edi_document.rb`.
+1. Set the correct environment in `soap.rb`:
+	``` ruby
+		ENVIRONMENT = 'dev' # or 'production'
+	```
+
+2. Add your EDI (x12) document to `edi_document.rb`.
 
 	``` ruby
 	EDI_DOCUMENT = <<-EOF
@@ -32,7 +37,7 @@ SOAP Client for connecting to the Dentalxchange API
 	EOF
 	```
 
-2. Add your credentials to `config/credentials.yml`.
+3. Add your credentials to `config/credentials.yml`.
 
 	``` yaml
 	CLIENT: 'ClientName'
@@ -41,7 +46,7 @@ SOAP Client for connecting to the Dentalxchange API
 	PASSWORD: 'MyPassword123'
 	```
 
-3. Send the SOAP request:
+4. Send the SOAP request:
 	``` bash
 	$ ruby soap.rb
 	```
