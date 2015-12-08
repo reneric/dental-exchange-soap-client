@@ -40,3 +40,8 @@ SOAP Client for connecting to the Dentalxchange API
 	USERNAME: 'MyUsername'
 	PASSWORD: 'MyPassword123'
 	```
+
+3. Send the SOAP request:
+	``` bash
+	$ ruby soap.rb
+	```
