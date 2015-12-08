@@ -1,6 +1,8 @@
 require 'savon'
 require_relative 'edi_document.rb'
-require_relative 'credentials.rb'
+
+# Load Credentials
+credentials = YAML::load_file(File.join(__dir__, 'config/credentials.yml'))
 
 # Constants
 DEVELOPMENT = 'dev'
@@ -28,10 +30,10 @@ namespaces = {
 
 # Testing Credentials
 credentials = {
-  'ns2:Client' => CLIENT,
-  'ns2:ServiceID' => SERVICE_ID,
-  'ns2:Username' => USERNAME,
-  'ns2:Password' => PASSWORD
+  'ns2:Client' => credentials['CLIENT'],
+  'ns2:ServiceID' => credentials['SERVICE_ID'],
+  'ns2:Username' => credentials['USERNAME'],
+  'ns2:Password' => credentials['PASSWORD']
 }
 
 # SOAP Client Setup

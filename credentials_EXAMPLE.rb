@@ -1,4 +1,0 @@
-CLIENT = ''
-SERVICE_ID = ''
-USERNAME = ''
-PASSWORD = ''
