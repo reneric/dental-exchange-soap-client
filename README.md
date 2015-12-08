@@ -54,15 +54,17 @@ SOAP Client for connecting to the Dentalxchange API
 
 
 ### Available Operations:
-	lookup_eligibility
-	lookup_terminal_eligibility
-	lookup_family_eligibility
-	lookup_claim_status
-	lookup_terminal_claim_status
-	update_terminal
-	submit_claim
-	validate_claim
-	get_payer_list
-	get_claim_status
-	get_eligibility
+	puts client.operations
+
+	=> lookup_eligibility
+	=> lookup_terminal_eligibility
+	=> lookup_family_eligibility
+	=> lookup_claim_status
+	=> lookup_terminal_claim_status
+	=> update_terminal
+	=> submit_claim
+	=> validate_claim
+	=> get_payer_list
+	=> get_claim_status
+	=> get_eligibility
 
