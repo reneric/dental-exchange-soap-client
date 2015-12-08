@@ -3,7 +3,7 @@ Dental Exchange SOAP Client
 
 SOAP Client for connecting to the Dentalxchange API
 
-# Getting Started
+## Getting Started
 
 1. Add your EDI (x12) document to `edi_document.rb`.
 
