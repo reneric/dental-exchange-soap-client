@@ -16,7 +16,7 @@ ENVIRONMENT = 'dev'
 # Set host based on environment
 HOST =
   if ENVIRONMENT == PRODUCTION
-    LIVE_HOST
+    PRODUCTION_HOST
   else
     DEV_HOST
   end

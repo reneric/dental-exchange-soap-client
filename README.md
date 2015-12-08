@@ -5,7 +5,7 @@ SOAP Client for connecting to the Dentalxchange API
 
 ## Getting Started
 
-1. Set the correct environment in `soap.rb`:
+1. Set the correct environment in `request.rb`:
 	``` ruby
 	ENVIRONMENT = 'dev' # or 'production'
 	```
@@ -48,5 +48,5 @@ SOAP Client for connecting to the Dentalxchange API
 
 4. Send the SOAP request:
 	``` bash
-	$ ruby soap.rb
+	$ ruby request.rb
 	```
