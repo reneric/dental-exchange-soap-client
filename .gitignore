@@ -1,0 +1,4 @@
+# Text Editor
+*.sublime*
+edi_document.rb
+credentials.rb
